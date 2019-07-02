@@ -220,6 +220,10 @@
     <Compile Include="Migrations\201907010421445_ChangeEstablishment.Designer.cs">
       <DependentUpon>201907010421445_ChangeEstablishment.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201907021353286_ChangeEstablishment1.cs" />
+    <Compile Include="Migrations\201907021353286_ChangeEstablishment1.Designer.cs">
+      <DependentUpon>201907021353286_ChangeEstablishment1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -328,6 +332,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201907010421445_ChangeEstablishment.resx">
       <DependentUpon>201907010421445_ChangeEstablishment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907021353286_ChangeEstablishment1.resx">
+      <DependentUpon>201907021353286_ChangeEstablishment1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
